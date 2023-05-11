@@ -1,6 +1,6 @@
+# iterative distribution transfer algorithm for images
 import scipy
 from scipy import stats
-import cvxpy as cp
 import math
 import numpy as np
 from PIL import Image

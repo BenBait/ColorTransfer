@@ -1,4 +1,4 @@
-#implement the sinkhorn transfer is discussed at the end of the paper
+# Sinkhorn transfer relying heavily on external libraries
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -25,6 +25,7 @@ t1 = p1[idx1, :]
 t2 = p2[idx2, :]
 
 # gamma is a regularization term for the entropy
+# increasing this will make the image more gray/homogenous
 gamma = 1e-2
 
 # get the transformation model from the ot library
