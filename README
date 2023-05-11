@@ -1,0 +1,37 @@
+This repo is associated with Ben Maloy and Max Shellist's final project for
+math 190 - Nonlinear Optimization with Professor Abiy Tasissa
+
+Each of the *_transfer.py files implements one color transfer algorithm
+color_space.py contains 2 functions for converting from RGB to LAB
+
+References
+[1] J. Rabin, S. Ferradans, and N. Papadakis, “Adaptive color transfer with relaxed optimal
+transport,” in 2014 IEEE International Conference on Image Processing (ICIP), 2014, pp.
+4852–4856.
+[2] J. Solomon, “Optimal transport on discrete domains,” 2018.
+[3] E. Reinhard, M. Adhikhmin, B. Gooch, and P. Shirley, “Color transfer between images,” IEEE
+Computer Graphics and Applications, vol. 21, no. 5, pp. 34–41, 2001.
+[4] J. Morovic and P.-L. Sun, “Accurate 3d image colour histogram transformation,” Pattern
+Recognition Letters, vol. 24, no. 11, pp. 1725–1735, 2003, colour Image Processing and Analysis.
+First European Conference on Colour in Graphics, Imaging, and Vision (CGIV 2002).
+[5] F. Piti ́e, A. C. Kokaram, and R. Dahyot, “Automated colour grading using colour
+distribution transfer,” Computer Vision and Image Understanding, vol. 107, no. 1,
+pp. 123–137, 2007, special issue on color image processing. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S1077314206002189
+[6] F. Pitie and A. Kokaram, “The linear monge-kantorovitch linear colour mapping for example-
+based colour transfer,” in 4th European Conference on Visual Media Production, 2007, pp.
+1–9.
+[7] J. Rabin, J. Delon, and Y. Gousseau, “Regularization of transportation maps for color and
+contrast transfer,” in 2010 IEEE International Conference on Image Processing, 2010, pp.
+1933–1936.
+[8] M. Cuturi, “Sinkhorn distances: Lightspeed computation of optimal transport,” in Advances
+in Neural Information Processing Systems, C. Burges, L. Bottou, M. Welling, Z. Ghahramani,
+and K. Weinberger, Eds., vol. 26. Curran Associates, Inc., 2013. [Online]. Available:
+https://proceedings.neurips.cc/paper files/paper/2013/file/af21d0c97db2e27e13572cbf59eb343d-
+Paper.pdf
+[9] J. Rabin and N. Papadakis, “Non-convex relaxation of optimal transport for color transfer
+between images,” in Geometric Science of Information, F. Nielsen and F. Barbaresco, Eds.
+Cham: Springer International Publishing, 2015, pp. 87–95.
+[10] F. Pitie, A. Kokaram, and R. Dahyot, “N-dimensional probability density function transfer
+and its application to color transfer,” in Tenth IEEE International Conference on Computer
+Vision (ICCV’05) Volume 1, vol. 2, 2005, pp. 1434–1439 Vol. 2
